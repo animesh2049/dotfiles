@@ -1,0 +1,818 @@
+((("delMut" .
+   [0 0 0 0 3 0])
+  ("setMut" .
+   [0 0 0 0 0 3])
+  ("filter" .
+   [2 0 0 1 0 0])
+  ("delete" .
+   [1 0 0 0 0 0])
+  ("IsGuardian" .
+   [0 0 0 0 2 0 0 0 0 0])
+  ("Schema" .
+   [1 0 0 1 0 0])
+  ("Alter" .
+   [0 0 2 0 0])
+  ("GetJson" .
+   [0 0 0 1 0 0 0])
+  ("J" .
+   [1])
+  ("Mutate" .
+   [1 0 0 0 0 0])
+  ("SetNquads" .
+   [0 0 0 1 0 0 0 0 0])
+  ("Mutation" .
+   [0 0 0 0 2 0 0 0])
+  ("mutation" .
+   [2 0 0 0 0 0 0 0])
+  ("unAuthPred" .
+   [0 0 2 0 0 0 0 0 0 0])
+  ("nodeUID" .
+   [0 0 0 0 1 0 0])
+  ("mutString" .
+   [1 0 0 0 0 1 0 0 0])
+  ("NewTxn" .
+   [0 0 0 1 1 0])
+  ("txn" .
+   [2 0 0])
+  ("superClient" .
+   [0 0 0 0 0 2 1 1 0 0 0])
+  ("DgraphClient" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("makeSuperUser" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("password" .
+   [1 0 1 0 0 1 1 1])
+  ("x" .
+   [1])
+  ("createSuperUser" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("groot" .
+   [1 0 0 0 0])
+  ("dgraphEndpoint" .
+   [0 0 0 0 1 2 0 0 0 0 0 0 0 0])
+  ("Command" .
+   [0 0 0 2 1 0 0])
+  ("WithTimeout" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("TestSuperUserAcess" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("in" .
+   [1 0])
+  ("group" .
+   [8 0 0 0 0])
+  ("ObjectId" .
+   [0 0 1 0 0 0 0 0])
+  ("Wrapf" .
+   [0 0 0 1 0])
+  ("NoAuthorize" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("doQuery" .
+   [0 0 0 1 0 0 0])
+  ("Server" .
+   [1 0 0 0 0 0])
+  ("Infof" .
+   [1 0 0 0 0])
+  ("upsertGroot" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("upsertGuardians" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("AdminGId" .
+   [0 0 2 2 0 2 0 0])
+  ("Cond" .
+   [1 0 0 0])
+  ("Mutations" .
+   [0 0 0 0 0 0 0 0 2])
+  ("CommitNow" .
+   [0 0 0 0 0 0 1 1 0])
+  ("Value_UidVal" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("StrVal" .
+   [0 0 0 0 2 0])
+  ("Value_StrVal" .
+   [0 0 0 0 0 0 0 1 1 0 0 0])
+  ("ObjectValue" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("Subject" .
+   [0 0 0 0 1 0 1])
+  ("NQuad" .
+   [1 1 1 0 0])
+  ("userNQuads" .
+   [0 0 1 0 2 0 0 0 0 0])
+  ("CreateUserNQuads" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("GrootId" .
+   [0 0 4 0 0 0 0])
+  ("contentType" .
+   [0 0 0 0 0 0 0 2 0 0 0])
+  ("numReTries" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("o" .
+   [2])
+  ("Reader" .
+   [1 0 0 0 0 0])
+  ("buf" .
+   [2 0 0])
+  ("url" .
+   [2 0 0])
+  ("Request" .
+   [0 0 1 0 1 0 0])
+  ("runGzipWithRetries" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ReadAll" .
+   [0 0 0 0 2 0 0])
+  ("respBody" .
+   [0 0 0 0 0 1 0 0])
+  ("Close" .
+   [0 0 0 2 0])
+  ("Body" .
+   [3 0 0 0])
+  ("req" .
+   [5 0 0])
+  ("runRequest" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("rd" .
+   [1 0])
+  ("grootAccessJwt" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Set" .
+   [8 2 0])
+  ("continue" .
+   [0 0 0 0 0 2 1 0])
+  ("Contains" .
+   [0 0 0 1 1 2 0 0])
+  ("Del" .
+   [5 2 0])
+  ("isAclPredMutation" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ReadString" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("g" .
+   [5])
+  ("p_tmp" .
+   [1 0 0 0 0])
+  ("P" .
+   [2])
+  ("friends" .
+   [0 0 0 0 0 0 1])
+  ("First" .
+   [0 0 1 0 0])
+  ("Second" .
+   [1 0 0 2 0 0])
+  ("Sleep" .
+   [2 0 0 0 0])
+  ("http" .
+   [1 0 0 0])
+  ("log" .
+   [1 0 0])
+  ("ifs" .
+   [1 0 0])
+  ("hdr" .
+   [2 0 0])
+  ("errors" .
+   [1 0 0 0 0 0])
+  ("PrintStack" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("arg" .
+   [2 0 0])
+  ("panic" .
+   [3 0 0 0 0])
+  ("printAge" .
+   [0 0 0 1 0 0 0 0])
+  ("age" .
+   [3 0 0])
+  ("name" .
+   [2 0 0 0])
+  ("Person" .
+   [2 0 0 1 0 0])
+  ("typ" .
+   [1 0 0])
+  ("package" .
+   [0 0 0 0 0 0 2])
+  ("makeScalarNode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Value" .
+   [1 0 0 2 2])
+  ("v" .
+   [1])
+  ("Stop" .
+   [1 0 0 1])
+  ("StartProfile" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("profiler" .
+   [0 0 0 0 0 1 0 0])
+  ("User" .
+   [1 0 0 0])
+  ("b" .
+   [3])
+  ("acl" .
+   [3 0 0])
+  ("strings" .
+   [1 0 0 0 0 0 0])
+  ("groupIds" .
+   [2 0 1 1 1 0 4 0])
+  ("userId" .
+   [2 0 0 0 1 0])
+  ("predsMap" .
+   [0 0 0 0 0 0 1 0])
+  ("Read" .
+   [0 0 0 1])
+  ("Response" .
+   [0 0 1 0 0 0 1 0])
+  ("Write" .
+   [0 0 0 1 0])
+  ("Modify" .
+   [0 1 0 0 0 0])
+  ("preds" .
+   [10 0 0 0 0])
+  ("doAuthorizeOperation" .
+   [0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Operation" .
+   [1 0 1 0 1 0 0 0 0])
+  ("op" .
+   [9 0])
+  ("Context" .
+   [1 0 0 1 0 0 0])
+  ("context" .
+   [0 0 0 2 0 0 0])
+  ("cur" .
+   [1 0 0])
+  ("newVar" .
+   [0 0 0 0 1 0])
+  ("facetName" .
+   [0 0 2 1 0 0 0 0 0])
+  ("s" .
+   [3])
+  ("dst" .
+   [1 0 0])
+  ("NormalizeNodeLimit" .
+   [0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("pc" .
+   [2 0])
+  ("c2" .
+   [1 0])
+  ("sg" .
+   [2 0])
+  ("fi" .
+   [1 0])
+  ("rootChild1" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("rootChild2" .
+   [2 0 0 0 0 0 1 0 0 0])
+  ("N" .
+   [2])
+  ("root2Child1" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("root1child1" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("isNormalized" .
+   [0 0 0 0 0 0 0 0 0 0 0 2])
+  ("Wait" .
+   [1 0 0 0])
+  ("w" .
+   [1])
+  ("Done" .
+   [0 0 0 1])
+  ("wg" .
+   [1 0])
+  ("allDataFiles" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("len" .
+   [12 0 0])
+  ("Add" .
+   [1 0 0])
+  ("WaitGroup" .
+   [0 0 0 1 1 0 0 0 0])
+  ("validatorWg" .
+   [1 0 0 1 4 0 0 0 0 0 0])
+  ("Lexer" .
+   [0 0 0 1 0])
+  ("lexer" .
+   [2 0 0 0 0])
+  ("TestNormalizeDirectiveSubQueryLevel1MultipleUIDs" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("TestNormalizeDirectiveSubQueryLevel1" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("e" .
+   [1])
+  ("TestCascadeSubQueryMultiUids" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Predicate" .
+   [0 0 1 2 1 0 0 0 0])
+  ("go-eldoc-setup" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("Attr" .
+   [2 1 1 0])
+  ("doneVars" .
+   [2 0 0 0 0 0 0 0])
+  ("DestUIDs" .
+   [1 0 0 1 1 0 0 0])
+  ("sgPath" .
+   [2 0 0 0 0 0])
+  ("varValue" .
+   [3 0 0 0 0 0 0 0])
+  ("diff-hl-flydiff-mode" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("gchild" .
+   [0 0 0 1 0 0])
+  ("true" .
+   [10 0 0 1])
+  ("Cascade" .
+   [1 0 2 0 0 0 0])
+  ("Val" .
+   [1 0 1])
+  ("V" .
+   [2])
+  ("neotree-change-root" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("neotree-make-executor" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("kill-whole-line" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("autopair" .
+   [0 0 0 0 0 1 1 0])
+  ("require" .
+   [1 1 1 1 1 0 0])
+  ("Printf" .
+   [8 0 0 1 0 1])
+  ("Println" .
+   [13 2 0 6 5 1 0])
+  ("main" .
+   [7 0 0 0])
+  ("column-number-mode" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("neotree" .
+   [0 0 0 1 0 0 0])
+  ("show-paren-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("go" .
+   [1 0])
+  ("neotree-dir" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("global-diff-hl-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("git-blamed" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("go-eldoc" .
+   [0 0 0 0 0 1 0 0])
+  ("bool" .
+   [9 0 0 0])
+  ("Bool" .
+   [1 0 0 0])
+  ("false" .
+   [9 0 0 0 6])
+  ("validateOnly" .
+   [0 0 0 2 0 0 0 0 1 0 0 6])
+  ("Live" .
+   [0 0 0 1])
+  ("GetBool" .
+   [0 0 0 0 0 0 1])
+  ("return" .
+   [0 0 2 0 2 11])
+  ("l" .
+   [3])
+  ("errCh" .
+   [6 0 0 0 1])
+  ("error" .
+   [15 0 0 0 0])
+  ("errCount" .
+   [1 0 0 0 0 0 0 0])
+  ("int" .
+   [7 0 0])
+  ("insertSmallDataSet" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("schema" .
+   [2 0 1 0 1 0])
+  ("data" .
+   [5 0 0 0])
+  ("query" .
+   [7 0 0 0 1])
+  ("js" .
+   [18 0])
+  ("processQuery" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("TestExtendedCascade1" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("TestExtendedCascade2" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("processQueryNoErr" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0])
+  ("addTriplesToCluster" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("TestCascadeSubQuery3" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("required" .
+   [2 0 0 0 1 0 0 0])
+  ("JSONEq" .
+   [0 0 4 1 1 0])
+  ("TestCascadeSubQuery4" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("t" .
+   [14])
+  ("string" .
+   [17 0 0 0 0 0])
+  ("resp" .
+   [14 0 0 0])
+  ("byte" .
+   [6 0 0 0])
+  ("me" .
+   [2 0])
+  ("interface" .
+   [0 0 0 0 1 0 0 0 0])
+  ("Marshal" .
+   [0 0 0 1 0 0 0])
+  ("_" .
+   [36])
+  ("ans" .
+   [1 0 0])
+  ("flatten" .
+   [3 0 0 2 1 0 2])
+  ("d" .
+   [2])
+  ("fastJsonNode" .
+   [0 0 1 21 12 1 0 0 0 0 0 5])
+  ("SetFlatten" .
+   [0 0 0 2 0 0 0 0 0 0])
+  ("Params" .
+   [2 0 2 0 1 0])
+  ("Normalize" .
+   [3 0 0 3 0 0 0 0 5])
+  ("foo" .
+   [5 0 0])
+  ("n" .
+   [8])
+  ("fj" .
+   [1 0])
+  ("n1" .
+   [3 0])
+  ("formatResult" .
+   [0 0 0 0 0 0 3 0 0 1 0 0])
+  ("node" .
+   [13 0 0 1])
+  ("outputNode" .
+   [0 0 0 3 0 1 1 0 0 0])
+  ("attrs" .
+   [30 0 0 2 0])
+  ("result" .
+   [1 0 0 0 0 0])
+  ("createAttrs" .
+   [1 0 0 1 0 0 0 0 0 0 0])
+  ("oNode" .
+   [4 1 0 1 0])
+  ("normalize" .
+   [1 0 0 5 1 0 0 0 1])
+  ("err" .
+   [67 0 0])
+  ("idx" .
+   [22 0 0])
+  ("child" .
+   [5 0 1 1 0])
+  ("attr" .
+   [5 0 1 4])
+  ("extraAttrs" .
+   [1 0 0 0 0 0 0 0 0 2])
+  ("append" .
+   [7 0 0 0 1 0])
+  ("real" .
+   [0 0 1 4])
+  ("nil" .
+   [36 0 0])
+  ("attrsToAdd" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("AddListChild" .
+   [0 2 0 5 1 1 0 0 0 0 0 1])
+  ("Alias" .
+   [0 0 0 2 2])
+  ("c" .
+   [11])
+  ("make" .
+   [3 0 0 0])
+  ("a" .
+   [6])
+  ("all" .
+   [2 0 0])
+  ("attrList" .
+   [0 0 0 0 1 1 0 1])
+  ("allAttrs" .
+   [0 0 0 2 1 0 0 2])
+  ("TestNormalizeDirective" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("TestNormalizeDirectiveSubQuery" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("testing" .
+   [0 1 0 0 0 0 0])
+  ("q" .
+   [1])
+  ("k" .
+   [5])
+  ("T" .
+   [8])
+  ("SampleTestingfoo" .
+   [1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Dgraph" .
+   [0 0 1 0 0 0])
+  ("NewReadOnlyTxn" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("Query" .
+   [2 0 2 0 0])
+  ("ctx" .
+   [12 0 0])
+  ("QueryHashIndex" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Run" .
+   [3 1 1])
+  ("wrap" .
+   [1 0 0 0])
+  ("Print" .
+   [0 0 0 0 6])
+  ("isChild" .
+   [0 0 4 0 0 0 4])
+  ("Pat" .
+   [0 1 0])
+  ("TestCompareNormalizePerformance" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("New" .
+   [6 1 0])
+  ("root" .
+   [4 0 0 0])
+  ("nodeHeight" .
+   [1 0 0 0 3 0 0 0 0 3])
+  ("treeDepth" .
+   [0 0 0 1 0 2 1 0 2])
+  ("dummy" .
+   [1 0 0 0 0])
+  ("i" .
+   [24])
+  ("AddValue" .
+   [0 0 0 1 1 0 0 0])
+  ("Sprint" .
+   [0 0 0 0 0 3])
+  ("ValueForType" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("StringID" .
+   [0 0 1 0 0 0 0 0])
+  ("fillNode" .
+   [0 0 0 0 2 1 0 0])
+  ("treeCopy" .
+   [0 0 0 0 1 0 0 0])
+  ("root2" .
+   [2 0 0 0 0])
+  ("root1" .
+   [2 0 0 0 0])
+  ("time" .
+   [1 0 0 0])
+  ("start" .
+   [3 0 0 0 0])
+  ("Now" .
+   [2 0 0])
+  ("Since" .
+   [1 0 0 0 0])
+  ("r" .
+   [2])
+  ("normalizeResult" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 1])
+  ("Sprintf" .
+   [1 0 1 0 1 0 0])
+  ("j" .
+   [1])
+  ("atomic" .
+   [1 0 0 0 0 0])
+  ("AddUint32" .
+   [0 0 0 1 0 0 0 0 0])
+  ("normalizeResultFuncCallCounter" .
+   [0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("uint32" .
+   [1 0 0 0 0 0])
+  ("StoreUint32" .
+   [0 1 0 0 0 0 0 0 0 0 0])
+  ("Passing" .
+   [1 0 0 0 0 0 0])
+  ("NOTE" .
+   [0 0 1 0])
+  ("ci" .
+   [4 0])
+  ("childNode" .
+   [0 0 0 1 0 1 0 0 0])
+  ("Exit" .
+   [1 0 0 1])
+  ("E" .
+   [5])
+  ("normalized" .
+   [3 0 0 2 0 0 0 0 0 1])
+  ("fieldName" .
+   [0 0 0 2 0 0 0 0 8])
+  ("AddMapChild" .
+   [0 0 0 0 6 1 0 0 0 0 0])
+  ("fallthrough" .
+   [0 0 0 6 0 0 0 0 0 0 0])
+  ("nodes" .
+   [3 0 0 0 0])
+  ("Errorln" .
+   [0 0 0 0 0 0 1])
+  ("more" .
+   [1 0 0 0])
+  ("than" .
+   [1 0 0 0])
+  ("element" .
+   [1 0 0 0 0 0 0])
+  ("glog" .
+   [1 0 0 0])
+  ("Errorf" .
+   [3 1 0 2 0 0])
+  ("using" .
+   [1 0 0 0 0])
+  ("List" .
+   [3 0 1 3])
+  ("uc" .
+   [3 0])
+  ("godef-jump-other-window" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ch" .
+   [2 0])
+  ("Children" .
+   [0 0 0 4 1 0 0 1])
+  ("addAsList" .
+   [2 0 0 1 0 0 0 0 2])
+  ("p" .
+   [5])
+  ("normAttrs" .
+   [0 0 0 0 0 0 0 0 1])
+  ("call" .
+   [1 0 0 0])
+  ("call_test_func" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("codes" .
+   [0 0 0 1 0])
+  ("PermissionDenied" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("readTs" .
+   [1 0 0 2 0 0])
+  ("Facets" .
+   [1 0 1 1 0 0])
+  ("RLock" .
+   [0 0 1 0 0])
+  ("RUnlock" .
+   [0 0 0 1 0 0 0])
+  ("va" .
+   [3 0])
+  ("fs" .
+   [3 0])
+  ("iterate" .
+   [0 0 0 0 1 0 0])
+  ("fun" .
+   [1 0 0])
+  ("Posting" .
+   [2 0 0 0 0 0 0])
+  ("LangTag" .
+   [0 0 0 1 0 0 0])
+  ("Facet" .
+   [1 0 0 0 0])
+  ("f" .
+   [2])
+  ("Itoa" .
+   [0 0 2 0])
+  ("scalarVal" .
+   [0 0 0 1 0 0 0 0 1])
+  ("list" .
+   [0 0 0 1])
+  ("pb" .
+   [1 0])
+  ("Unmarshal" .
+   [0 0 1 0 0 0 0 0 0])
+  ("shards" .
+   [0 0 0 1 0 0])
+  ("str" .
+   [6 0 0])
+  ("Error" .
+   [1 2 2 0 0])
+  ("unsafe" .
+   [0 0 0 0 0 3])
+  ("Pointer" .
+   [0 0 1 1 0 0 0])
+  ("Data" .
+   [2 0 0 0])
+  ("debug" .
+   [3 0 0 0 0])
+  ("testutil" .
+   [0 0 0 0 0 1 3 1])
+  ("DgraphClientWithGroot" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("SockAddr" .
+   [0 0 0 0 2 0 0 0])
+  ("NoError" .
+   [1 0 3 6 1 0 0])
+  ("createAccountAndData" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dg" .
+   [2 0])
+  ("Background" .
+   [0 0 0 0 2 0 0 0 0 0])
+  ("Login" .
+   [1 0 1 0 0])
+  ("userid" .
+   [1 0 0 0 0 1])
+  ("userpassword" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("num" .
+   [2 0 0])
+  ("xml" .
+   [1 0 0])
+  ("groups" .
+   [2 0 0 0 0 0])
+  ("IsSuperUser" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("userName" .
+   [1 0 0 0 0 4 0 0])
+  ("GetString" .
+   [0 0 0 1 0 4 0 0 0])
+  ("gPassword" .
+   [0 0 1 2 0 0 0 0 0])
+  ("gName" .
+   [1 0 2 2 0])
+  ("gpass" .
+   [1 0 0 0 0])
+  ("gPass" .
+   [1 0 0 0 0])
+  ("gname" .
+   [1 0 0 0 0])
+  ("u" .
+   [1])
+  ("queryUser" .
+   [1 0 0 0 0 0 0 0 0])
+  ("gClient" .
+   [0 0 1 0 0 0 0])
+  ("addUserToGroup" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("createGuardian" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("cha" .
+   [1 0 0])
+  ("changeSchema" .
+   [1 0 0 0 0 0 0 1 0 0 0 0])
+  ("DropAll" .
+   [0 0 0 1 0 0 0])
+  ("addNew" .
+   [1 0 0 0 0 0])
+  ("removeUserFromGroup" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("groupName" .
+   [1 0 0 0 0 0 0 0 0])
+  ("removeUserFromGroups" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("userAdd" .
+   [0 0 0 0 1 0 0])
+  ("removeUser" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("M" .
+   [1])
+  ("mu" .
+   [6 0])
+  ("mut" .
+   [3 0 0])
+  ("size" .
+   [5 0 0 0])
+  ("gq" .
+   [3 0])
+  ("gqls" .
+   [8 0 0 0])
+  ("ok" .
+   [4 0])
+  ("eraseFromArr" .
+   [0 0 2 2 0 0 0 0 0 0 0 0])
+  ("id" .
+   [1 0])
+  ("mutations" .
+   [1 0 0 0 2 1 0 0 0])
+  ("unAuthPreds" .
+   [1 0 1 2 4 0 0 0 0 0 0])
+  ("pred" .
+   [1 0 0 0])
+  ("reflect" .
+   [1 0 0 0 0 0 0])
+  ("status" .
+   [1 0 0 0 0 0])
+  ("following" .
+   [1 0 0 0 0 0 0 0 0])
+  ("predicates" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("Join" .
+   [0 1 0 0])
+  ("key" .
+   [2 0 0])
+  ("removeQryPreds" .
+   [0 0 1 0 0 0 0 1 0 0 0 0 0 0])
+  ("Func" .
+   [0 0 0 1])
+  ("new" .
+   [3 0 0])
+  ("GraphQuery" .
+   [0 0 0 0 0 2 1 0 0 0])
+  ("parsedReq" .
+   [0 0 0 1 0 0 0 0 0])
+  ("copy" .
+   [1 0 0 0])))

@@ -1,0 +1,283 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/" . "load-json/")
+ ("/home/animesh/.emacs.d/elpa/" . "go-mode-20190830.2157/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/" . "mutates/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/" . "integration/")
+ ("/tmp/" . "testing/")
+ ("/home/animesh/go/pkg/mod/github.com/" . "dgraph-io/")
+ ("/home/animesh/go/pkg/mod/" . "github.com/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/" . "pb/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/types/" . "facets/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/" . "acl/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgo/" . "protos/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgraph-io/dgo/" . "protos/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgraph-io/dgo/protos/" . "api/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/" . "enterprise-features/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/" . "content/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgryski/" . "go-groupvarint/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/" . "dgryski/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/" . "github.com/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/" . "live/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/" . "cmd/")
+ ("/home/animesh/.emacs.d/" . "elpa/")
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/" . "edgraph/")
+ ("/home/animesh/" . ".emacs.d/")
+ ("/home/animesh/go/src/github.com/dgraph-io/" . "dgraph/")
+ ("/home/animesh/go/src/github.com/" . "dgraph-io/")
+ ("/home/animesh/go/src/" . "github.com/")
+ ("/home/animesh/go/" . "src/")
+ ("/home/" . "animesh/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/enterprise-features/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/mutates/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/testtxn/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-json/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-uids/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/systest/"
+ "/home/animesh/tmp/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/testutil/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/acctupsert/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/share/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/bank/"
+ "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/"
+ "/home/animesh/.emacs.d/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/worker/"
+ "/tmp/testing/"
+ "/tmp/systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-systemd-resolved.service-nyO2cK/"
+ "/home/animesh/go/src/temp/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/pb/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/posting/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/codec/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgo/protos/api/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/types/facets/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/schema/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/gql/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/query-language/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgo/protos/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/benchmark/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/validator/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgryski/go-groupvarint/"
+ "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/tests/"
+ "/home/animesh/.emacs.d/lisp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "server_test.go"
+ "acl.go"
+ "server.go"
+ "index.md"
+ "main.go"
+ "functions.sh"
+ "CONTRIBUTING.md"
+ "main_test.go"
+ "loader.sh"
+ "load_test.go"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/" (24069 63712 793643 802000) "server.go" "./" "access_ee.go" "config_mem.go" "../" "server_test.go" "acl_cache_test.go" "access.go" "acl_cache.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/" (24068 36453 270949 939000) "acl_curl_test.go" "./" "acl.go" "acl_test.go" "run_ee.go" "../" "utils.go" "hmac-secret" "groups_test.go" "run.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/enterprise-features/" (24066 19525 523288 731000) "./" "_index.md" "index.md" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/" (24048 62997 105105 614000) "./" "dgraph-compared-to-other-databases/" "_index.md" "faq/" "get-started/" "clients/" "mutations/" "tutorial-5/" "deploy/" "../" "tips/" "tutorial-4/" "query-language/" "design-concepts/" "tutorial-3/" "enterprise-features/" "howto/" "get-started-old/" "tutorial-2/" "tutorial-1/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/" (24048 62997 105105 614000) "./" "themes/" "config.toml" "scripts/" "static/" "README.md" "../" "public/" "nginx/" "content/" "resources/" ".gitignore")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/" (24068 34011 191513 522000) "functions.sh" "./" "loader.sh" "cover.sh" "load-test.sh" "install-dependencies.sh" "../" "goldendata-queries.sh" "queries/" "license.sh" "license.py" "transactions.sh" "README.txt")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/" (24066 19525 507288 704000) "./" "jepsen/" "config/" "Dockerfile" "standalone/" "scripts/" "README.md" "tlstest/" "../" "embargo/" "systemd/" "wait-for-it.sh" "release.sh" "integration/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-json/" (24066 19829 372277 270000) "family.schema" "./" "family1.json" "../" "family.json" "family3.json" "load_test.go" "family2.json")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-uids/" (24066 19788 364106 254000) "family.schema" "./" "family.rdf" "../" "family.json" "load_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/" (24066 19525 507288 704000) "./" "mapper.go" "reduce.go" "ulimit_unix.go" "systest/" "split_gz.sh" "schema.go" "merge_shards.go" "../" "loader.go" "shard_map.go" "progress.go" "speed_tests/" "count_index.go" ".gitignore" "ulimit_windows.go" "run.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/worker/" (24066 19525 531288 745000) "aggregator.go" "groups.go" "./" "server_state.go" "predicate_move.go" "backup.go" "match_test.go" "mutation_test.go" "draft_test.go" "export_test.go" "draft.go" "worker.go" "tokens.go" "sort.go" "sort_test.go" "schema.go" "README.md" "worker_test.go" "../" "task.go" "backup_ee.go" "compare.go" "config.go" "proposal.go" "mutation.go" "match.go" "predicate_test.go" "export.go" "snapshot_test.go" "trigram.go" "snapshot.go" "docker-compose.yml" "stringfilter.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/query/" (24066 19525 519288 725000) "aggregator.go" "common_test.go" "./" "recurse.go" "math_test.go" "outputnode.go" "query0_test.go" "query.go" "query2_test.go" "thoughts.md" "benchmark/" "outputnode_test.go" "query3_test.go" "../" "query1_test.go" "testdata/" "query4_test.go" "mutation.go" "groupby.go" "benchmark_test.go" "math.go" "shortest.go" "test_schema" ".gitignore" "query_facets_test.go")
+
+ ("/home/animesh/.emacs.d/" (24066 19533 99302 454000) "./" ".emacs.desktop" "elpa/" ".mc-lists.el" "ido.last" "ac-comphist.dat" "../" ".emacs.desktop.lock" "lisp/" "url/" "init.el~" "init.el" "auto-save-list/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/mutates/" (24066 19514 499270 214000) "./" "main.go" "../" ".gitignore")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/testtxn/" (24066 19525 539288 760000) "./" "main_test.go" "../" ".gitignore")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/" (24066 19525 507288 704000) "./" "http.go" "testrun.sh" "admin.go" "testdata.nq" "thoughts.md" "notes.txt" "debug.yaml" "upsert_test.go" "http_test.go" "run_test.go" "admin_backup.go" "../" "testrun/" "mutations_mode/" "login_ee.go" "dashboard.go" ".gitignore" "schema_scalar" "metrics_test.go" "run.go")
+
+ ("/home/animesh/tmp/" (24065 63117 301040 39000) "./" "test.sh" "testing/" "alpha.log" "test2.sh" "../" "abhimanyu_feeback.txt" "tests.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/" (24066 19525 507288 704000) "./" "batch.go" "load-uids/" "../" "load-json/" ".gitignore" "run.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/systest/" (24066 19655 407618 192000) "./" "mutations_test.go" "cluster_setup_test.go" "_customtok/" "bulk_live_cases_test.go" "../" "loader/" "21million/" "plugin_test.go" "loader-benchmark/" "group-delete/" "queries_test.go" "posting-list-benchmark/" "data/" "bulk_live_fixture_test.go" "cluster_test.go" "live_pw_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/" (24066 19525 507288 704000) "conn/" "./" "CODE_OF_CONDUCT.md" "x/" "types/" ".codeclimate.yml" "test.sh" "ocagent/" "edgraph/" "xidmap/" "Makefile" "algo/" "compose/" "CONTRIBUTING.md" "go.mod" "dgraph/" "CHANGELOG.md" "systest/" "chunker/" "present/" ".git/" "testutil/" "tok/" ".github/" "wiki/" "posting/" "static/" "README.md" "LICENSE.md" "tlstest/" "gql/" "../" "worker/" "raftwal/" "logo.png" "query/" ".travis/" "task/" "contrib/" "protos/" "go.sum" "lex/" ".deepsource.toml" ".travis.yml" "schema/" "codec/" "ee/" ".gitignore" "licenses/" ".golangci.yml")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/gql/" (24065 61340 665331 917000) "./" "bench_test.go" "upsert_test.go" "parser_test.go" "README.md" "../" "parser_mutation.go" "state_test.go" "parser.go" "parser_fuzz.go" "mutation.go" "state.go" "fuzzit.sh" "math.go" "fuzz-data/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/" (24065 61340 657331 754000) "./" "json_parser.go" "rdf_parser_test.go" "rdf_state.go" "rdf_parser.go" "json_parser_test.go" "../" "chunk.go" "chunk_test.go" "README.txt")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/posting/" (24065 61340 669331 998000) "oracle.go" "./" "doc.go" "mem.out" "writer.go" "size_test.sh" "size_test.go" "lmap_test.go" "../" "size.go" "config.go" "index_test.go" "list_test.go" "index.go" "mvcc_test.go" "list.go" "lists.go" "mvcc.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/pb/" (24065 61340 669331 998000) "./" "pb.pb.go" "../")
+
+ ("/tmp/testing/" (24064 61078 37821 264000) "./" "1.sh" "MrRobotS04E01.mp4" "../")
+
+ ("/home/animesh/" (24065 62097 579773 824000) "./" "Templates/" ".bashrc" ".zoom/" "schema.txt" "gitrepos/" ".gnupg/" ".PyCharmCE2019.2/" ".cache/" "bin/" ".ssh/" "Music/" "go/" "ques.txt" "data.rdf" "snap/" "docker_outputs/" ".bash_aliases" "cascade_test_data/" ".pvpn-cli/" "Desktop/" "Documents/" "Videos/" "movie_data/" ".vscode/" ".gconf/" ".gitconfig" ".wget-hsts" ".mozilla/" "tmp/" "flock_client_output" "../" "Downloads/" ".profile" ".python_history" ".atom/" ".pki/" ".vimrc" ".npm/" "Pictures/" ".viminfo" "test_case" ".ICEauthority" ".node_repl_history" ".thunderbird/" ".saves/" "pprof/" "examples.desktop" ".gnome/" ".lesshst" ".sudo_as_admin_successful" ".bash_history" ".java/" "dgraph-v1.1.0-88.exe" ".ivy2/" ".bash_logout" "Public/" ".emacs.d/" ".fonts/" ".sbt/" ".local/" "flock_outputs" "todos.txt" ".config/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/x/" (24064 38666 649523 722000) "./" "tls_helper.go" "doc.go" "log.go" "values.go" "names-generator.go" "file.go" "keys_test.go" "metrics.go" "subcommand.go" "../" "health.go" "lock.go" "x_test.go" "config.go" "keys.go" "error_test.go" "error.go" "values_test.go" "histogram.go" "profile.go" "x.go" "init.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/" (24060 50037 741322 672000) "./" "minio.env" "Makefile" "main.go" "cmd/" "../" ".gitignore" "docker-compose.yml")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/query-language/" (24058 23946 146411 78000) "./" "_index.md" "index.md" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/schema/" (24058 23946 142411 52000) "./" "parse_test.go" "schema.go" "../" "parse.go" "state.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/codec/" (24058 23946 138411 27000) "./" "codec_test.go" "codec.go" "benchmark/" "../" "decoderversion.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/testutil/" (24060 51681 267143 474000) "./" "backup.go" "minio.go" "exec.go" "README.md" "../" "docker.go" "minio_test.go" "client.go" "json.go" "zero.go")
+
+ ("/home/animesh/.emacs.d/elpa/go-mode-20190830.2157/" (24059 22830 354538 116000) "./" "go-mode-pkg.el" "go-mode.el" ".go-mode.el.swp" "go-mode-autoloads.el" "../" "go-mode.elc")
+
+ ("/home/animesh/.emacs.d/elpa/" (23949 54114 217371 725000) "./" "go-dlv-20190413.1623/" "go-eldoc-20170305.1427/" "auto-complete-20170125.245/" "go-mode-20190830.2157/" "diff-hl-1.8.7.signed" "go-autocomplete-readme.txt" "markdown-mode-readme.txt" "archives/" "neotree-20181121.2026/" "auto-complete-readme.txt" "git-lens-readme.txt" "diff-hl-readme.txt" "gnupg/" "diff-hl-1.8.7/" "../" "popup-20160709.1429/" "go-eldoc-readme.txt" "exec-path-from-shell-20190426.2227/" "go-autocomplete-20150904.240/" "markdown-mode-20190802.2215/" "adjust-parens-readme.txt" "git-blamed-readme.txt" "multiple-cursors-readme.txt" "multiple-cursors-20190820.749/" "autopair-20160304.1237/" "git-blamed-20161028.1926/")
+
+ ("/home/animesh/go/src/" (24051 23425 916050 69000) "./" "cloud.google.com/" "gocloud.dev/" "golang.org/" "go.etcd.io/" "temp/" "../" "gopkg.in/" "go.opencensus.io/" "github.com/" "contrib.go.opencensus.io/" "google.golang.org/")
+
+ ("/home/animesh/go/src/github.com/" (24051 23416 200016 352000) "stamblerre/" "./" "uber/" "beorn7/" "rwcarlsen/" "miekg/" "matttproud/" "aws/" "jdkato/" "spf13/" "ramya-rao-a/" "dgrijalva/" "ChimeraCoder/" "gobuffalo/" "yosssi/" "joho/" "prometheus/" "niklasfasching/" "dustin/" "kyokomi/" "dgryski/" "danwakefield/" "cpuguy83/" "uudashr/" "cespare/" "muesli/" "bep/" "olekukonko/" "PuerkitoBio/" "dgraph-io/" "acroca/" "armon/" "Azure/" "../" "hashicorp/" "DataDog/" "google/" "pkg/" "markbates/" "jteeuwen/" "magiconair/" "alecthomas/" "stretchr/" "russross/" "fsnotify/" "sqs/" "gorilla/" "subosito/" "pelletier/" "go-delve/" "gogo/" "tdewolff/" "gobwas/" "etcd-io/" "googleapis/" "rogpeppe/" "karrick/" "BurntSushi/" "golang/" "disintegration/" "eknkc/" "mitchellh/" "nicksnyder/" "dlclark/" "mattn/" "nsf/" "gohugoio/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/" (24048 62997 77104 942000) "./" "backup/" "enc/" "acl/" "README.md" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/acctupsert/" (24048 62997 53104 365000) "./" "main.go" "../" ".gitignore")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/share/" (23917 3225 304718 919000) "./" "stub.go" "../" "share_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/bank/" (24048 62997 53104 365000) "./" "main.go" "../" ".gitignore")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/types/facets/" (24048 62997 101105 518000) "./" "facet_types.go" "../" "utils.go")
+
+ ("/home/animesh/go/src/temp/" (24048 62520 32533 667000) "test2.go" "./" "race_test.sh" "go.mod" "temp/" "mem.pprof" "../" "test.go" "go.sum" "test" "sample_binaries/" "docker-compose.yml")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/" (24048 62997 69104 749000) "./" "counter/" "cert/" "debug/" "migrate/" "alpha/" "../" "root.go" "bulk/" "zero/" "conv/" "version/" "root_ee.go" "live/")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/" (24030 26224 38564 714000) "./" "badger/" "ristretto@v0.0.0-20191010170704-2ba187ef9534/" "../" "ristretto@v0.0.0-20190916120426-cd2835491e0e/" "ristretto@v0.0.0-20191114170855-99d1bbbf28e6/" "dgo@v1.0.0/" "dgraph@v1.1.0/" "badger@v0.0.0-20190917133922-cbdef65095c7/" "badger@v1.6.0/" "badger@v0.0.0-20191021140416-be6402f83d31/" "dgo/")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/" (24040 53827 704768 606000) "v2@v2.1.1-0.20191021171913-3efa60e5593b/" "./" "v2@v2.1.1-0.20191011032519-062f5605f6da/" "v2@v2.0.0/" "../" "v2@v2.1.0/" "v2@v2.1.1-0.20191127085444-c7a02678e8a6/" "v2@v2.1.1-0.20191121195227-2007f080576e/")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/" (24030 26223 850569 480000) "./" "example_set_object_test.go" "doc.go" "test.sh" "acl_test.go" "go.mod" "upsert_test.go" "README.md" "../" "txn.go" "LICENSE" "type_system_test.go" "errors_test.go" "protos/" "client.go" "go.sum" ".deepsource.toml" "examples_test.go" "example_get_schema_test.go")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/protos/" (24030 26223 846569 581000) "api.proto" "./" "api/" "Makefile" "../")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/protos/api/" (24030 26223 846569 581000) "./" "../" "api.pb.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/" (23981 54429 917050 718000) "acctupsert/" "./" "testtxn/" "bigdata/" "../" "share/" "mutates/" "bank/" "swap/")
+
+ ("/home/animesh/go/pkg/mod/google.golang.org/grpc@v1.23.0/" (23981 24373 875676 841000) "picker_wrapper.go" "server.go" "interop/" "./" "peer/" "doc.go" "rpc_util.go" "stress/" "examples/" "Makefile" "binarylog/" "credentials/" "grpclog/" "CONTRIBUTING.md" "xds/" "call.go" "go.mod" "dialoptions.go" "metadata/" "pickfirst_test.go" "codec_test.go" "resolver/" "internal/" "proxy.go" "backoff.go" "health/" "naming/" "version.go" "codec.go" "balancer_test.go" "clientconn.go" "balancer/" "benchmark/" ".github/" "balancer_conn_wrappers.go" "Documentation/" "status/" "connectivity/" "call_test.go" "grpc_test.go" "serviceconfig/" "reflection/" "README.md" "tap/" "codes/" "../" "proxy_test.go" "balancer.go" "vet.sh" "preloader.go" "service_config.go" "service_config_test.go" "server_test.go" "stream.go" "keepalive/" "LICENSE" "rpc_util_test.go" "testdata/" "clientconn_state_transition_test.go" "channelz/" "resolver_conn_wrapper.go" "install_gae.sh" "go.sum" "balancer_switching_test.go" "codegen.sh" "clientconn_test.go" "pickfirst.go" "resolver_conn_wrapper_test.go" "stats/" ".travis.yml" "test/" "balancer_v1_wrapper.go" "interceptor.go" "trace.go" "picker_wrapper_test.go" "encoding/" "AUTHORS")
+
+ ("/tmp/" (24039 43154 304661 352000) "Slack Crashes/" "Temp-1c366aa4-aa96-435a-9fb2-d46143d295dc/" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-ModemManager.service-xV73lu/" "config-err-JbqH4E" ".font-unix/" ".X1024-lock" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-bolt.service-N8A9mV/" "testing/" ".com.google.Chrome.bgBKux/" ".org.chromium.Chromium.zhurj3/" ".Test-unix/" ".com.google.Chrome.Trxtwm" "ssh-ZwDEpMgV2z3V/" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-fwupd.service-3z5MaO/" ".X11-unix/" ".XIM-unix/" ".org.chromium.Chromium.5IXJ0K/" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-rtkit-daemon.service-uMocBr/" "lu4439pgi4kb.tmp/" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-colord.service-F9uy9w/" "OSL_PIPE_1000_SingleOfficeIPC_799ddfd1cdf2f5e26ff1eb68db01ad6" "_MEIy6aDD9/" ".ICE-unix/" "Temp-f4d5969c-9605-4204-bfdc-6dece06be334/" "net-export/" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-systemd-timesyncd.service-z32wK6/" "systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-systemd-resolved.service-nyO2cK/" "../" "./")
+
+ ("/usr/local/go/src/runtime/" (23976 58618 0 0) "string.go" "sys_linux_s390x.s" "memclr_s390x.s" "mstats.go" "signal_linux_ppc64x.go" "tls_mips64x.s" "os_windows.go" "os_linux_novdso.go" "race0.go" "numcpu_freebsd_test.go" "syscall_solaris.go" "signal_arm64.go" "stubs3.go" "sigtab_aix.go" "os_linux_be64.go" "defs_linux_386.go" "stubs2.go" "mbarrier.go" "cgocall.go" "signal_freebsd_arm.go" "cgo_mmap.go" "vdso_linux_arm64.go" "sigqueue_plan9.go" "rt0_plan9_386.s" "sys_linux_arm64.s" "sys_darwin_amd64.s" "rt0_darwin_386.s" "netpoll_solaris.go" "runtime_unix_test.go" "stubs_386.go" "asm_386.s" "tls_arm64.h" "os_openbsd_arm.go" "signal_nacl_amd64p32.go" "export_debug_test.go" "defs_darwin_arm.go" "rt0_openbsd_386.s" "memclr_plan9_amd64.s" "rt0_windows_arm.s" "asm_amd64.s" "os_freebsd.go" "chanbarrier_test.go" "string_test.go" "cgocallback.go" "rt0_linux_amd64.s" "defs_openbsd_arm64.go" "os_netbsd_amd64.go" "sys_linux_386.s" "defs_linux_arm64.go" "vdso_elf64.go" "debuglog_off.go" "defs_darwin_arm64.go" "memmove_386.s" "os_nonopenbsd.go" "os_openbsd.go" "rt0_linux_s390x.s" "sys_windows_arm.s" "defs1_netbsd_arm64.go" "export_windows_test.go" "signal_netbsd_386.go" "sys_plan9_amd64.s" "defs_linux_ppc64le.go" "tls_ppc64x.s" "duff_386.s" "netpoll_epoll.go" "map_faststr.go" "proc.go" "rwmutex.go" "mmap.go" "sys_aix_ppc64.s" "debug.go" "mgcsweepbuf.go" "memclr_amd64p32.s" "mprof.go" "signal_linux_arm64.go" "rdebug.go" "defs_plan9_arm.go" "cgo_ppc64x.go" "netpoll_windows.go" "signal_ppc64x.go" "stubs_nonlinux.go" "softfloat64_test.go" "rt0_linux_386.s" "map.go" "rwmutex_test.go" "atomic_mips64x.s" "defs_solaris.go" "memclr_mipsx.s" "semasleep_test.go" "rt0_netbsd_amd64.s" "panic32.go" "mheap.go" "sys_ppc64x.go" "debugcall.go" "Makefile" "signal_netbsd_amd64.go" "cgo.go" "defs1_netbsd_386.go" "cgo_sigaction.go" "stubs_mipsx.go" "atomic_arm64.s" "vdso_linux.go" "race/" "duff_ppc64x.s" "os_darwin_arm64.go" "runtime1.go" "compiler.go" "race.go" "rt0_freebsd_amd64.s" "env_test.go" "memmove_plan9_386.s" "rt0_nacl_arm.s" "rt0_windows_amd64.s" "defs_nacl_amd64p32.go" "float.go" "sigqueue_note.go" "msan_arm64.s" "net_plan9.go" "msan0.go" "vdso_linux_ppc64x.go" "duff_arm64.s" "profbuf_test.go" "sys_x86.go" "memmove_mipsx.s" "defs3_linux.go" "asm_ppc64x.s" "signal_openbsd_386.go" "signal_arm.go" "os_linux.go" "mknacl.sh" "defs_netbsd_amd64.go" "defs_freebsd_amd64.go" "cpuflags.go" "cpuflags_amd64.go" "os3_plan9.go" "HACKING.md" "sys_darwin_arm64.s" "msan.go" "hash_test.go" "rt0_solaris_amd64.s" "defs_nacl_386.go" "os_openbsd_arm64.go" "zcallback_windows_arm.s" "iface_test.go" "defs_openbsd.go" "os_plan9.go" "defs_openbsd_386.go" "proflabel.go" "tls_arm.s" "sys_mipsx.go" "os_nacl.go" "go_tls.h" "signal_nacl.go" "defs_netbsd.go" "sys_linux_mips64x.s" "signal_freebsd_amd64.go" "lock_futex.go" "defs_darwin_386.go" "rt0_illumos_amd64.s" "os_freebsd_noauxv.go" "mgcsweep.go" "tls_s390x.s" "hash64.go" "asm_arm64.s" "map_fast32.go" "syscall_windows.go" "rt0_android_arm64.s" "lock_js.go" "auxv_none.go" "heapdump.go" "sys_linux_amd64.s" "malloc.go" "internal/" "export_test.go" "vlop_arm_test.go" "sys_freebsd_amd64.s" "asm_amd64p32.s" "symtab_test.go" "debug/" "rt0_plan9_arm.s" "stubs_s390x.go" "sys_netbsd_386.s" "vdso_linux_arm.go" "defs_linux_mipsx.go" "signal_sighandler.go" "rt0_darwin_arm.s" "asm_ppc64x.h" "runtime_mmap_test.go" "sys_linux_ppc64x.s" "sys_s390x.go" "trace/" "asm_mipsx.s" "time.go" "sys_darwin_32.go" "os_linux_mips64x.go" "sigtab_linux_mipsx.go" "os_darwin.go" "rt0_linux_mipsx.s" "memclr_mips64x.s" "rand_test.go" "sys_arm.go" "syscall_nacl.h" "sys_linux_mipsx.s" "example_test.go" "os_dragonfly.go" "memmove_linux_amd64_test.go" "rt0_dragonfly_amd64.s" "vdso_linux_amd64.go" "memclr_386.s" "type.go" "vlop_arm.s" "defs_darwin_amd64.go" "mgcscavenge.go" "defs_netbsd_386.go" "fastlog2_test.go" "defs_plan9_amd64.go" "defs_openbsd_arm.go" "wincallback.go" "cpuprof.go" "sys_windows_386.s" "os_linux_arm.go" "defs1_netbsd_arm.go" "stubs_arm.go" "race_amd64.s" "os_freebsd_amd64.go" "defs_windows_amd64.go" "write_err_android.go" "netpoll_fake.go" "defs_linux_s390x.go" "syscall_windows_test.go" "signal_darwin_arm64.go" "crash_cgo_test.go" "os_android.go" "relax_stub.go" "syscall2_solaris.go" "extern.go" "rt0_darwin_arm64.s" "sys_darwin_arm.s" "defs_freebsd.go" "os_solaris.go" "signal_openbsd_arm64.go" "signal_darwin_amd64.go" "tls_mipsx.s" "hash32.go" "export_arm_test.go" "iface.go" "runtime-lldb_test.go" "signal_linux_mipsx.go" "msan_amd64.s" "defs_dragonfly.go" "proc_test.go" "duff_s390x.s" "cgo/" "rt0_netbsd_arm64.s" "os2_openbsd.go" "race_ppc64le.s" "gcinfo_test.go" "os_linux_ppc64x.go" "memmove_wasm.s" "mem_aix.go" "rt0_js_wasm.s" "atomic_mipsx.s" "export_linux_test.go" "defs1_netbsd_amd64.go" "signal_amd64x.go" "memclr_arm64.s" "memclr_arm.s" "os_netbsd_arm64.go" "signal_darwin.go" "traceback.go" "stubs_mips64x.go" "mkduff.go" "memmove_test.go" "signal_mips64x.go" "rt0_openbsd_arm.s" "signal_aix_ppc64.go" "typekind.go" "sys_openbsd_amd64.s" "runtime2.go" "memmove_plan9_amd64.s" "debuglog_on.go" "debug_test.go" "signal_netbsd_arm.go" "runtime_test.go" "signal_linux_amd64.go" "stack_test.go" "defs_aix_ppc64.go" "fastlog2.go" "softfloat64.go" "netpoll.go" "mem_js.go" "atomic_pointer.go" "zcallback_windows.go" "mgcstack.go" "rt0_android_arm.s" "netpoll_kqueue.go" "rt0_nacl_amd64p32.s" "defs_windows_386.go" "crash_nonunix_test.go" "sys_solaris_amd64.s" "lock_sema.go" "rt0_linux_arm64.s" "defs1_linux.go" "runtime_linux_test.go" "defs_netbsd_arm.go" "sys_nacl_arm.s" "write_err.go" "mkfastlog2table.go" "sys_plan9_arm.s" "mksizeclasses.go" "asm.s" "vdso_freebsd_arm.go" "vdso_in_none.go" "complex.go" "sys_wasm.s" "signal_windows.go" "rt0_netbsd_arm.s" "signal_linux_arm.go" "rt0_darwin_amd64.s" "utf8.go" "os_netbsd_386.go" "os2_freebsd.go" "futex_test.go" "signal_solaris.go" "os2_aix.go" "stubs_amd64x.go" "alg.go" "os_freebsd_arm.go" "rt0_freebsd_arm.s" "os2_solaris.go" "atomic_ppc64x.s" "callers_test.go" "slice.go" "os_linux_s390x.go" "export_mmap_test.go" "netpoll_stub.go" "signal_linux_386.go" "sigqueue.go" "signal_netbsd_arm64.go" "asm_mips64x.s" "rt0_freebsd_386.s" "lfstack_test.go" "signal_dragonfly_amd64.go" "stubs_arm64.go" "defs_windows.go" "zcallback_windows.s" "defs_aix.go" "stack.go" "sys_nacl_386.s" "mgc.go" "export_debuglog_test.go" "signal_openbsd_amd64.go" "mgcmark.go" "timeasm.go" "defs1_solaris_amd64.go" "asm_wasm.s" "signal_386.go" "os_js.go" "treap_test.go" "os_netbsd_arm.go" "os_netbsd.go" "defs_plan9_386.go" "memclr_amd64.s" "vlop_386.s" "defs_linux_mips64x.go" "sys_arm64.go" "signal_freebsd_386.go" "mem_darwin.go" "os2_nacl.go" "memmove_ppc64x.s" "rt0_aix_ppc64.s" "defs_freebsd_arm.go" "vdso_linux_386.go" "sys_freebsd_386.s" "select.go" "memclr_wasm.s" "rt0_nacl_386.s" "defs_darwin.go" "lfstack_32bit.go" "msan/" "signal_darwin_arm.go" "chan.go" "defs_dragonfly_amd64.go" "map_fast64.go" "norace_test.go" "memmove_arm64.s" "proc_runtime_test.go" "signal_mipsx.go" "memmove_amd64.s" "plugin.go" "gc_test.go" "os_plan9_arm.go" "memmove_mips64x.s" "testdata/" "symtab.go" "print.go" "signal_nacl_arm.go" "complex_test.go" "asm_s390x.s" "sys_mips64x.go" "funcdata.h" "export_unix_test.go" "env_posix.go" "os_nacl_arm.go" "mgcwork.go" "memclr_plan9_386.s" "sys_dragonfly_amd64.s" "defs_openbsd_amd64.go" "textflag.h" "msize.go" "mwbbuf.go" "panic.go" "pprof/" "os_aix.go" "mgclarge.go" "vlrt.go" "profbuf.go" "mfinal_test.go" "defs_solaris_amd64.go" "signal_openbsd.go" "defs_linux.go" "os_linux_arm64.go" "syscall_aix.go" "mem_linux.go" "sema.go" "sys_netbsd_arm64.s" "map_benchmark_test.go" "tls_arm64.s" "asm_arm.s" "sys_nonppc64x.go" "fastlog2table.go" "defs_nacl_arm.go" "memclr_ppc64x.s" "cgocheck.go" "stubs_linux.go" "mem_windows.go" "netpoll_aix.go" "rt0_android_amd64.s" "mcache.go" "rt0_android_386.s" "signal_nacl_386.go" "debuglog.go" "sigaction.go" "mem_bsd.go" "rt0_linux_ppc64.s" "runtime-gdb.py" "error.go" "map_test.go" "signal_darwin_386.go" "runtime.go" "sys_darwin_386.s" "export_futex_test.go" "env_plan9.go" "memmove_amd64p32.s" "timestub2.go" "rt0_windows_386.s" "lfstack.go" "os_darwin_arm.go" "vdso_elf32.go" "defs2_linux.go" "stubs_ppc64x.go" "defs_freebsd_386.go" "signal_unix.go" "rt0_linux_arm.s" "memmove_s390x.s" "timestub.go" "chan_test.go" "sys_netbsd_arm.s" "signal_linux_mips64x.go" "os2_plan9.go" "norace_linux_test.go" "crash_unix_test.go" "sys_windows_amd64.s" "signal_plan9.go" "os_linux_noauxv.go" "sys_openbsd_386.s" "sys_linux_arm.s" "duff_arm.s" "sys_darwin.go" "closure_test.go" "sys_plan9_386.s" "mbitmap.go" "defs_linux_arm.go" "os_freebsd2.go" "mfixalloc.go" "defs_windows_arm.go" "signal_dragonfly.go" "cputicks.go" "sys_nacl_amd64p32.s" "memmove_arm.s" "slice_test.go" "malloc_test.go" "vdso_freebsd_x86.go" "rt0_linux_ppc64le.s" "signal_linux_s390x.go" "sys_darwin_64.go" "duff_amd64.s" "defs_linux_ppc64.go" "sigtab_linux_generic.go" "signal_openbsd_arm.go" "runtime-gdb_test.go" "sizeof_test.go" "duff_mips64x.s" "rt0_linux_mips64x.s" "os_linux_generic.go" "stubs32.go" "trace.go" "stubs.go" "rt0_plan9_amd64.s" "mcentral.go" "sys_wasm.go" "mfinal.go" "sys_openbsd_arm64.s" "sys_openbsd_arm.s" "rt0_openbsd_amd64.s" "mem_plan9.go" "signal_netbsd.go" "os3_solaris.go" "sizeclasses.go" "sys_netbsd_amd64.s" "os_windows_arm.go" "sys_freebsd_arm.s" "rt0_netbsd_386.s" "lfstack_64bit.go" "race_arm64.s" "defs_linux_amd64.go" "rt0_openbsd_arm64.s" "os_linux_mipsx.go" "vdso_freebsd.go" "signal_freebsd.go" "debuglog_test.go" "defs_arm_linux.go" "signal_solaris_amd64.go" "crash_test.go" "../" "./")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgo/protos/" (24020 62219 905729 357000) "api.proto" "./" "api/" "Makefile" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgo/protos/api/" (24020 62219 905729 357000) "./" "../" "api.pb.go")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/dgraph@v1.1.0/" (23977 40391 438145 297000) "conn/" "vendor/" "./" "CODE_OF_CONDUCT.md" "x/" "types/" ".codeclimate.yml" "test.sh" "ocagent/" "edgraph/" "xidmap/" "Makefile" "algo/" "compose/" "CONTRIBUTING.md" "dgraph/" "CHANGELOG.md" "systest/" "chunker/" "present/" "testutil/" "tok/" ".github/" "wiki/" "posting/" "static/" "README.md" "LICENSE.md" "tlstest/" "gql/" "../" "worker/" "raftwal/" "logo.png" "query/" ".travis/" "task/" "contrib/" "protos/" "lex/" ".travis.yml" "schema/" "codec/" "ee/" ".gitignore" "licenses/" ".golangci.yml")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/badger@v1.6.0/" (23977 40404 226289 445000) "VERSIONING.md" "managed_db.go" "db_test.go" "merge.go" "backup_test.go" "./" "CODE_OF_CONDUCT.md" "badger/" "options.go" "doc.go" "db.go" "db2_test.go" "dir_unix.go" "test.sh" "backup.go" "structs.go" "levels.go" "y/" "manifest_test.go" "table/" "go.mod" "CHANGELOG.md" "histogram_test.go" "compaction.go" "batch.go" "level_handler.go" "options/" "images/" "errors.go" "stream_writer.go" "batch_test.go" "stream_test.go" "skl/" ".github/" "appveyor.yml" "README.md" "manifest.go" "iterator_test.go" "../" "logger.go" "managed_db_test.go" "txn.go" "util.go" "publisher_test.go" "stream.go" "LICENSE" "logger_test.go" "dir_windows.go" "publisher.go" "value.go" "txn_test.go" "contrib/" "stream_writer_test.go" "merge_test.go" "go.sum" ".travis.yml" "histogram.go" "pb/" ".gitignore" "integration/" "iterator.go" "value_test.go" ".golangci.yml")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/badger@v1.6.0/y/" (23977 40404 226289 445000) "mmap_unix.go" "watermark.go" "./" "metrics.go" "y.go" "iterator_test.go" "../" "file_sync.go" "file_nodsync.go" "file_sync_darwin.go" "file_dsync.go" "error.go" "mmap_windows.go" "iterator.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/xidmap/" (24024 7989 715845 184000) "./" "../" "xidmap_test.go" "xidmap.go")
+
+ ("/home/animesh/go/pkg/" (23981 25196 550137 642000) "./" "sumdb/" "mod/" "../" "linux_amd64/")
+
+ ("/home/animesh/go/pkg/mod/" (24010 57775 273811 453000) "./" "go.starlark.net@v0.0.0-20190702223751-32f345186213/" "honnef.co/" "golang.org/" "go.etcd.io/" "go.opencensus.io@v0.22.1/" "../" "gopkg.in/" "cache/" "go.opencensus.io@v0.21.0/" "github.com/" "contrib.go.opencensus.io/" "google.golang.org/")
+
+ ("/home/animesh/go/pkg/mod/github.com/" (24021 25771 132842 809000) "!d!a!t!a-!d!o!g/" "jtolds/" "./" "beorn7/" "d4l3k/" "matttproud/" "sirupsen/" "spf13/" "ramya-rao-a/" "dgrijalva/" "davecgh/" "!chimera!coder/" "codahale/" "minio/" "ianlancetaylor/" "prometheus/" "garyburd/" "onsi/" "dustin/" "blevesearch/" "azr/" "dgryski/" "uudashr/" "cespare/" "inconshreveable/" "willf/" "dgraph-io/" "acroca/" "!burnt!sushi/" "apache/" "pmezard/" "paulmach/" "!data!dog/" "tinylib/" "coreos/" "../" "hashicorp/" "google/" "kr/" "pkg/" "!andreas!briese/" "magiconair/" "gopherjs/" "!one!of!one/" "go-sql-driver/" "stretchr/" "mdempsky/" "hpcloud/" "fsnotify/" "cosiner/" "spaolacci/" "pelletier/" "chzyer/" "go-delve/" "philhofer/" "gogo/" "go-ini/" "peterh/" "twpayne/" "karrick/" "golang/" "mitchellh/" "smartystreets/" "sergi/" "mattn/")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/badger@v0.0.0-20190917133922-cbdef65095c7/" (23981 24373 343662 404000) "VERSIONING.md" "managed_db.go" "db_test.go" "merge.go" "backup_test.go" "./" "CODE_OF_CONDUCT.md" "badger/" "options.go" "doc.go" "db.go" "db2_test.go" "dir_unix.go" "test.sh" "backup.go" "structs.go" "levels.go" "y/" "manifest_test.go" "table/" "go.mod" "CHANGELOG.md" "histogram_test.go" "compaction.go" "batch.go" "level_handler.go" "options/" "images/" "errors.go" "stream_writer.go" "batch_test.go" "stream_test.go" "skl/" ".github/" "trie/" "appveyor.yml" "README.md" "manifest.go" "iterator_test.go" "../" "logger.go" "managed_db_test.go" "txn.go" "util.go" "publisher_test.go" "stream.go" "LICENSE" "logger_test.go" "dir_windows.go" "publisher.go" "value.go" "txn_test.go" "contrib/" "stream_writer_test.go" "merge_test.go" "go.sum" ".travis.yml" "histogram.go" "pb/" ".gitignore" "integration/" "iterator.go" "value_test.go" ".golangci.yml")
+
+ ("/home/animesh/go/pkg/mod/github.com/dgraph-io/badger@v0.0.0-20190917133922-cbdef65095c7/pb/" (23981 24373 339662 296000) "./" "gen.sh" "pb.proto" "pb.pb.go" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/" (24009 8502 285437 264000) "./" "depcheck.sh" "Makefile" "pb.proto" "../" "pb/")
+
+ ("/usr/local/go/src/bytes/" (23947 47022 0 0) "bytes_test.go" "./" "reader_test.go" "boundary_test.go" "bytes.go" "export_test.go" "example_test.go" "../" "buffer.go" "reader.go" "buffer_test.go" "compare_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/conn/" (24020 60614 21661 716000) "snappy.go" "./" "pool.go" "node.go" "raft_server.go" "../" "node_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/badger/" (23985 3764 138497 907000) "VERSIONING.md" "managed_db.go" "db_test.go" "merge.go" "backup_test.go" "./" "CODE_OF_CONDUCT.md" "badger/" "options.go" "doc.go" "db.go" "db2_test.go" "dir_unix.go" "test.sh" "backup.go" "structs.go" "levels.go" "y/" "manifest_test.go" "table/" "go.mod" "CHANGELOG.md" "histogram_test.go" "compaction.go" "batch.go" "level_handler.go" "options/" "images/" "errors.go" "stream_writer.go" "key_registry.go" ".git/" "batch_test.go" "stream_test.go" "skl/" ".github/" "trie/" "appveyor.yml" "README.md" "manifest.go" "iterator_test.go" "../" "logger.go" "managed_db_test.go" "txn.go" "util.go" "publisher_test.go" "stream.go" "LICENSE" "logger_test.go" "dir_windows.go" "publisher.go" "value.go" "txn_test.go" "contrib/" "stream_writer_test.go" "merge_test.go" "go.sum" ".deepsource.toml" ".travis.yml" "histogram.go" "pb/" ".gitignore" "integration/" "iterator.go" "value_test.go" ".golangci.yml" "key_registry_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/" (23984 65122 892395 237000) "ristretto/" "./" "badger/" "flock/" "ratel/" "dgraph/" "../" "pydgraph/" "dgo/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/task/" (23917 3225 396683 755000) "conversion.go" "./" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/types/" (23974 57220 993015 412000) "conversion.go" "password_test.go" "./" "s2.go" "geofilter_test.go" "geofilter.go" "s2index_test.go" "sort.go" "sort_test.go" "conversion_test.go" "scalar_types_test.go" "../" "password.go" "s2_test.go" "compare.go" "s2index.go" "geo_test.go" "testdata/" "value.go" "facets/" "scalar_types.go" "earth.go" "value_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgryski/go-groupvarint/" (23972 21449 603183 731000) "./" "gen.sh" "doc.go" "ssemasks.go" "bytesused.go" "decode.go" "../" "varint.go" "decode_amd64.s" "encode.go" "decode_stub.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/" (23966 9921 450066 876000) "./" "golang.org/" "go.etcd.io/" "vendor.json" "../" "gopkg.in/" "go.opencensus.io/" "github.com/" "contrib.go.opencensus.io/" "google.golang.org/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/spf13/" (23917 3225 484650 121000) "./" "cobra/" "../" "cast/" "viper/" "jwalterweatherman/" "pflag/" "afero/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/spf13/cobra/" (23917 3225 484650 121000) "./" "LICENSE.txt" "args.go" "README.md" "command_notwin.go" "../" "command.go" "cobra.go" "zsh_completions.go" "command_win.go" "bash_completions.go" "bash_completions.md")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/dgraph-compared-to-other-databases/" (23917 3225 548625 659000) "./" "_index.md" "index.md" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgo/" (23936 50187 331740 905000) "./" "x/" "example_set_object_test.go" "doc.go" "test.sh" "y/" "go.mod" ".git/" "upsert_test.go" "README.md" "../" "txn.go" "LICENSE" "protos/" "client.go" "go.sum" "examples_test.go" "example_get_schema_test.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/" (23948 46083 358882 832000) "eapache/" "./" "beorn7/" "matttproud/" "spf13/" "dgrijalva/" "davecgh/" "codahale/" "minio/" "prometheus/" "dustin/" "blevesearch/" "dgryski/" "pierrec/" "rcrowley/" "cespare/" "inconshreveable/" "AndreasBriese/" "willf/" "dgraph-io/" "apache/" "pmezard/" "paulmach/" "tinylib/" "../" "hashicorp/" "cockroachdb/" "DataDog/" "google/" "pkg/" "magiconair/" "go-sql-driver/" "stretchr/" "fsnotify/" "pelletier/" "philhofer/" "gogo/" "go-ini/" "twpayne/" "golang/" "jcmturner/" "MakeNowJust/" "mitchellh/" "Shopify/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgraph-io/" (23917 3225 452662 352000) "ristretto/" "./" "badger/" "../" "dgo/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgraph-io/dgo/" (23959 1293 211822 598000) "./" "doc.go" "test.sh" "go.mod" "README.md" "../" "txn.go" "LICENSE" "protos/" "client.go" "go.sum")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgraph-io/dgo/protos/" (23917 3225 452662 352000) "./" "api/" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgraph-io/dgo/protos/api/" (23948 46083 358882 832000) "./" "../" "api.pb.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/query/benchmark/" (23917 3225 328709 746000) "./" "actor.2.gob" "actor.0.gob" "director.2.gob" "README.md" "director.0.gob" "../" "run.sh" "actor.1.gob" "director.1.gob" "README.txt" "synthetic_results.txt")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/validator/" (23948 45068 707306 319000) "./" "../" "run.go")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/lex/" (23917 3225 324711 275000) "./" "lexer.go" "../" "iri.go")
+
+ ("/home/animesh/Templates/" (23917 18194 547999 341000) "./" "../")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/vendor/github.com/dgryski/" (23917 3225 452662 352000) "./" "../" "go-groupvarint/" "go-farm/")
+
+ ("/home/animesh/go/src/github.com/dgraph-io/dgraph/query/tests/" (23938 15391 963731 907000) "./" "../")
+
+ ("~/go/src/github.com/dgraph-io/dgraph/query/" (23938 14911 743992 156000) "aggregator.go" "common_test.go" "./" "recurse.go" "math_test.go" "outputnode.go" "query0_test.go" "query.go" "query2_test.go" "thoughts.md" "benchmark/" "outputnode_test.go" "query3_test.go" "../" "query1_test.go" "testdata/" "query4_test.go" "mutation.go" "groupby.go" "benchmark_test.go" "math.go" "shortest.go" "test_schema" ".gitignore" "query_facets_test.go")
+
+ ("/home/animesh/.emacs.d/auto-save-list/" (23936 44706 888743 457000) "./" ".saves-10037-workstation~" "../")
+
+ ("/home/animesh/.emacs.d/lisp/" (23921 64070 341112 191000) "./" "../" "go-guru.el")
+
+ ("/home/animesh/go/" (23917 3912 495996 594000) "./" "bin/" "../" "pkg/" "src/")
+
+ ("/home/" (23917 18069 899993 955000) "./" "../" "animesh/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

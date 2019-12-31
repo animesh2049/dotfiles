@@ -1,0 +1,955 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Dec 30 16:43:37 2019
+;; Desktop file format version 208
+;; Emacs version 25.2.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24073 56289 871806 280000) (desktop . "208") "animesh@workstation" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (tool-bar-lines . 0) (vertical-scroll-bars) (background-color . "unspecified-bg") (font . "tty") (height . 74) (width . 275) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "0F86-7FAA-8439-972A") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 36) (min-height-ignore . 2) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 36) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 7) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 275) (pixel-height . 73) (total-width . 275) (total-height . 73) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 26) (pixel-height . 73) (total-width . 26) (total-height . 73) (normal-height . 1.0) (normal-width . 0.325) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 249) (pixel-height . 73) (total-width . 249) (total-height . 73) (normal-height . 1.0) (normal-width . 0.675) (buffer "code.cpp" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("acl.op" "doquery" "nnn" "doquery" "reflect" "removeqry" "info" "authorize" "queryus" "u" "query" "unauthpred" "issu" "issuer" "issuper" "doquery"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/go/src/github.com/dgraph-io/dgraph/edgraph/test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/enterprise-features/index.md" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/mutates/main.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/functions.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/CONTRIBUTING.md" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/testtxn/main_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/loader.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/CONTRIBUTING.md" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-json/load_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-uids/load_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/systest/bulk_live_fixture_test.go" "/home/animesh/tmp/abhimanyu_feeback.txt" "/home/animesh/go/src/github.com/dgraph-io/dgraph/testutil/client.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/access_ee.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/access.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_curl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/run.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run_ee.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/utils.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run_ee.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/run.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/login_ee.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/access_ee.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/loader.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/load-test.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/acctupsert/main.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/testtxn/main_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/share/stub.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/mutates/main.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/bank/main.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/cover.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/transactions.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/goldendata-queries.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/loader.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/load-test.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/CONTRIBUTING.md" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/http_test.go" "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/txn.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/testutil/client.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/testtxn/main_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_curl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache_test.go" "/home/animesh/.emacs.d/init.el" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run_ee.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/utils.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/outputnode.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/worker/task.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/shortest.go" "/home/animesh/.emacs.d/init.el" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go" "/tmp/testing/test.c" "/tmp/systemd-private-4fbc3a6f1e6a4944918a70a963ada2f0-systemd-resolved.service-nyO2cK/" "/tmp/test.c" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/temp/test" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go" "/home/animesh/.emacs.d/init.el" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/temp/test2.go" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/loader.go" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/reduce.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/pb/pb_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/pb/pb.pb.go" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/temp/race_test.sh" "/home/animesh/go/src/github.com/dgraph-io/dgraph/posting/mvcc.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/pb/pb.pb.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/codec/codec.go" "/home/animesh/go/src/temp/test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/json_parser_test.go" "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/outputnode.go"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/animesh/Downloads/code.cpp"
+  "code.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(2166 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/schema/parse.go"
+  "parse.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  11420
+  '(7985 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (12196))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/access_ee.go"
+  "access_ee.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  14027
+  '(14027 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (13618 13400 21376 22734 22871 22871 22999 22997 22734 22539 22734 22424 22734 22871 22734 18683))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/protos/api/api.pb.go"
+  "api.pb.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  11092
+  '(46784 nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (46791 47147 46944 46944))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server.go"
+  "server.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  3300
+  '(3300 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3300 3314 25952 25749 19987 18632 20505 21099 20441 22246 25759 25759 25761 19999 25756 20001))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/access.go"
+  "access.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1918
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/gql/mutation.go"
+  "mutation.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  991
+  '(1036 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/server_test.go"
+  "server_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  4198
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/gql/parser.go"
+  "parser.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(12851 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (23164 15104))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl.go"
+  "acl.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  17122
+  '(15356 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (17122 3872 17170 17131 17131 16729 16648 12389 11836 2054 1823 1819 2143 3255 3164 2024))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/README.md"
+  "README.md"
+  'markdown-mode
+  '(linum-mode autopair-mode diff-hl-flydiff-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/wiki/content/enterprise-features/index.md"
+  "index.md"
+  'markdown-mode
+  '(linum-mode autopair-mode diff-hl-flydiff-mode global-auto-revert-mode)
+  13571
+  '(1156 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1156))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/mutates/main.go"
+  "main.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1181
+  '(1181 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/functions.sh"
+  "functions.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1492
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/CONTRIBUTING.md"
+  "CONTRIBUTING.md"
+  'markdown-mode
+  '(linum-mode autopair-mode diff-hl-flydiff-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_test.go"
+  "acl_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  16606
+  '(15122 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (15152 15517 15517 15517 15517 15517 15517 15517 15517 15517 15517 15517 15517 15517 15517 15517))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/testtxn/main_test.go"
+  "main_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  15066
+  '(974 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (974 974 974 974 974 974 974 974 974 974 974 974 974 974 974 974))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/loader.sh"
+  "loader.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  920
+  '(916 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (125))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-json/load_test.go"
+  "load_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  4488
+  '(3820 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2279 2279 2279))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/live/load-uids/load_test.go"
+  "load_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  5035
+  '(4296 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2870 2870 2817))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/systest/bulk_live_fixture_test.go"
+  "bulk_live_fixture_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  6483
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/tmp/abhimanyu_feeback.txt"
+  "abhimanyu_feeback.txt"
+  'text-mode
+  '(linum-mode autopair-mode diff-hl-flydiff-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . iso-latin-1-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/testutil/client.go"
+  "client.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  10188
+  '(9469 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3066 3810 3276 3098 3095))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/txn.go"
+  "txn.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1951
+  '(4680 nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache.go"
+  "acl_cache.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  3248
+  '(2515 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2515 2515 2515 3013 3013 380 380 380 380 380 380 380))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run_ee.go"
+  "run_ee.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  1044
+  '(572 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (4066 4066 1 2168 480 2101 572 1384 1384 572 572 572 2184 2101 2101 2101))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/x/x.go"
+  "x.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  21195
+  '(3413 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3413 3413 3413))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/query.go"
+  "query.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  53053
+  '(54421 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (25493 6516 24105 20685 75335 79145 6341 6341 6341))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/acl_curl_test.go"
+  "acl_curl_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  2532
+  '(879 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (879 1114 559 1114 1114 1051 1114 4182 3807 1114 1114 1114 4008 1114 1114 1114))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/utils.go"
+  "utils.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode smerge-mode)
+  4268
+  '(4130 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (4130 4130 4130 4183 4183 4130 4130 4144 4183 4142 4183 4183 4183 4139 4158 4133))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/spf13/cobra@v0.0.5/command.go"
+  "command.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  40689
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . iso-latin-1-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/ee/acl/run.go"
+  "run.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  868
+  '(647 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/x/tls_helper.go"
+  "tls_helper.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1196
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/run.go"
+  "run.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  2596
+  '(2594 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (19131 19137 19131 19131 19131 19131 19131 17232 9228 9228 9228 4754))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/spf13/pflag@v1.0.3/string.go"
+  "string.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  2250
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/x/keys.go"
+  "keys.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  15942
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191127085444-c7a02678e8a6/client.go"
+  "client.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  2025
+  '(2199 nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2089 1341 1824 1824))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/edgraph/acl_cache_test.go"
+  "acl_cache_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1417
+  '(1727 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/login_ee.go"
+  "login_ee.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1021
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/load-test.sh"
+  "load-test.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/goldendata-queries.sh"
+  "goldendata-queries.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1354
+  '(14 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/acctupsert/main.go"
+  "main.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1939
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/share/stub.go"
+  "stub.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/integration/bank/main.go"
+  "main.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  7435
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/transactions.sh"
+  "transactions.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/contrib/scripts/cover.sh"
+  "cover.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/http_test.go"
+  "http_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  4281
+  '(703 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (703 703 703 3469 703 3426 7142 4652 703 3426 3443 4651 3426 3426 6618 4652))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/run_test.go"
+  "run_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  34828
+  '(2626 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2393 2506 2388))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/google.golang.org/grpc@v1.23.0/clientconn.go"
+  "clientconn.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  16339
+  '(15806 nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (15323))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/google.golang.org/grpc@v1.23.0/peer/peer.go"
+  "peer.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1448
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  3834
+  '(28 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/google.golang.org/grpc@v1.23.0/server.go"
+  "server.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  19491
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/alpha/http.go"
+  "http.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  4538
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/query/outputnode.go"
+  "outputnode.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  20544
+  '(695 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (695 695 695 695 695 695 695 695 695 695 695 695 695 695 695 695))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/worker/task.go"
+  "task.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  58784
+  '(1707 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1707 1707 1707 1707 1))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/temp/test.go"
+  "test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1675
+  '(1675 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . iso-latin-1-unix))
+  '((mark-ring (1546 1546 1556 1595 1318 1595 1318 1595 1318 1318 1595 1318 1595 1318 1595 1595))))
+
+(desktop-create-buffer 208
+  "/usr/local/go/src/runtime/mgc.go"
+  "mgc.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  45417
+  '(40679 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . iso-latin-1-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/temp/test"
+  "test"
+  'fundamental-mode
+  '(linum-mode autopair-mode diff-hl-flydiff-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/temp/test2.go"
+  "test2.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  342
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . iso-latin-1-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/badger@v1.6.0/y/mmap_unix.go"
+  "mmap_unix.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  879
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/xidmap/xidmap.go"
+  "xidmap.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1154
+  '(5851 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (5659 5851 5782))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/badger/db.go"
+  "db.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  7437
+  '(7264 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/loader.go"
+  "loader.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  5332
+  '(5332 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/badger@v0.0.0-20190917133922-cbdef65095c7/pb/pb.pb.go"
+  "pb.pb.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  4243
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/reduce.go"
+  "reduce.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  4237
+  '(2448 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (4458))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/protos/pb/pb.pb.go"
+  "pb.pb.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  380905
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (192 192 192 192 192 192 192 192 192 192 192 192 192 192 192 192))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/temp/race_test.sh"
+  "race_test.sh"
+  'sh-mode
+  '(auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/posting/mvcc.go"
+  "mvcc.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  4918
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/codec/codec.go"
+  "codec.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  3637
+  '(3637 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3699 1))))
+
+(desktop-create-buffer 208
+  "/usr/local/go/src/bytes/bytes.go"
+  "bytes.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  13303
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgryski/go-groupvarint@v0.0.0-20190318181831-5ce5df8ca4e1/decode_stub.go"
+  "decode_stub.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  75
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/json_parser_test.go"
+  "json_parser_test.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  14805
+  '(14805 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (14805 5352 5352 1 14805 14805 1 1907 1907 14805 14805 1 14803 5613 7572 4151))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.1-0.20191021171913-3efa60e5593b/protos/api/api.pb.go"
+  "api.pb.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  23836
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/json_parser.go"
+  "json_parser.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  14763
+  '(813 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/rdf_parser.go"
+  "rdf_parser.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  2326
+  '(801 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (801 801 801 801 801 801 801 694 801 625 65 4 801 801 801 801))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/dgraph/cmd/bulk/mapper.go"
+  "mapper.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  3440
+  '(3440 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3832))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/src/github.com/dgraph-io/dgraph/chunker/chunk.go"
+  "chunk.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode autopair-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  3731
+  '(2582 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1036))))
+
+(desktop-create-buffer 208
+  "/home/animesh/go/pkg/mod/github.com/dgraph-io/dgo/v2@v2.1.0/protos/api/api.pb.go"
+  "api.pb.go"
+  'go-mode
+  '(eldoc-mode auto-complete-mode linum-mode diff-hl-flydiff-mode whitespace-mode global-auto-revert-mode)
+  32209
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
