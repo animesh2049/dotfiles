@@ -2,38 +2,56 @@
 (add-to-list 'exec-path "/home/animesh/go/bin")
 (add-to-list 'exec-path "/usr/local/go/bin")
 (exec-path-from-shell-copy-env "PATH")
-(add-hook 'before-save-hook 'gofmt-before-save)
 
-(defun auto-complete-for-go ()
-  (auto-complete-mode 1))
-(add-hook 'go-mode-hook 'auto-complete-for-go)
+(use-package go-mode
+  :config
+  (use-package go-projectile)
+  (use-package go-autocomplete)
+  (use-package godoctor)
+  (use-package flymake-go)
 
-(with-eval-after-load 'go-mode
-  (require 'go-autocomplete))
+  ;; golint support
+  (let ((golint-path (concat (expand-file-name "~/go")
+                 "/src/github.com/golang/lint/misc/emacs")))
+    (if (not (file-exists-p golint-path))
+    (progn
+      (start-process "go-get-golint" nil
+             "go" "get" "-u" "github.com/golang/lint/golint")))
+    (add-to-list 'load-path golint-path)
+    (require 'golint))
 
-(defun my-go-mode-hook ()
-  ; Use goimports instead of go-fmt
-  (setq gofmt-command "goimports")
-					; Call gofmt before saving
-  (add-hook 'before-save-hook 'gofmt-before-save)
-					; Customize compile command to run go build
-  (if (not (string-match "go" compile-command))
-      (set (make-local-variable 'compile-command)
-	   "go build -v && go test -v && go vet"))
-					; godef jump key bindings
-  (local-set-key (kbd "M-.") 'godef-jump)
-  (local-set-key (kbd "M-*") 'godef-jump-other-window)
-  (local-set-key (kbd "M-p") 'compile)
-  (local-set-key (kbd "M-p") 'recompile)
-  (local-set-key (kbd "M-]") 'next-error)
-  (local-set-key (kbd "M-[") 'previous-error)
-  (go-guru-hl-identifier-mode)
-  (go-eldoc-setup)
- )
+  ;; go-expanderr support
+  (let ((go-expanderr-path (concat (expand-file-name "~/go")
+                 "/src/github.com/stapelberg/expanderr/lisp/go-expanderr.el")))
+    (if (not (file-exists-p go-expanderr-path))
+    (progn
+      (start-process "go-get-expanderr" nil
+             "go" "get" "-u" "github.com/stapelberg/expanderr")))
+    (load "~/go/src/github.com/stapelberg/expanderr/lisp/go-expanderr.el"))
 
-(add-hook 'go-mode-hook 'my-go-mode-hook)
 
-(require 'go-guru)
-(desktop-save-mode 1)
-
-(use-package flymake-go)
+  (defun my-go-mode-hook ()
+    (setq gofmt-command "goimports")
+    (subword-mode t)
+    (setq tab-width 4)
+    (add-hook 'before-save-hook 'gofmt-before-save)
+    (auto-complete-mode nil)
+    (with-eval-after-load 'go-mode
+      (require 'go-autocomplete)
+      (require 'godoctor)
+      (require 'go-guru)
+      (require 'go-eldoc)
+      (require 'flymake-go)
+      (go-eldoc-setup)
+      (go-guru-hl-identifier-mode)
+      (local-set-key (kbd "M-.") 'godef-jump)
+      (local-set-key (kbd "M-*") 'godef-jump-other-window)
+      (local-set-key (kbd "M-p") 'compile)
+      (local-set-key (kbd "M-p") 'recompile)
+      (local-set-key (kbd "M-]") 'next-error)
+      (local-set-key (kbd "M-[") 'previous-error)
+      (if (not (string-match "go" compile-command))
+	  (set (make-local-variable 'compile-command)
+	       "go build -v && go test -v && go vet"))
+      ))
+  (add-hook 'go-mode-hook 'my-go-mode-hook))
