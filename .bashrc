@@ -122,11 +122,4 @@ export GOPATH=/home/animesh/go
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/home/animesh/.local/bin
-#export GOPATH=/home/animesh/go
-#export PATH=$PATH:home/animesh/bin/go/bin:$GOPATH/bin
-#export BLUESPECDIR="/home/animesh/fpga/Bluespec-2018.03.beta1/lib"
-#export BLUESPEC_HOME="/home/animesh/fpga/Bluespec-2017.03.beta1"
-#export LM_LICENSE_FILE="27000@10.4.21.49"
-#export PATH=$PATH:${BLUESPEC_HOME}/
-#export PATH=$PATH:/home/animesh/fpga/Bluespec-2017.03.beta1/lib/bin/
 source "$HOME/.cargo/env"
